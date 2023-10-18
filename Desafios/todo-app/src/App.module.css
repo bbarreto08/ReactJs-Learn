@@ -1,0 +1,25 @@
+.container {
+  max-width: 37.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  display: flex;
+  width: 37.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.itemList {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.itemList li + li {
+  margin-top: 0.5rem;
+}
+
+.taskFinished {
+  background: white;
+  text-decoration: overline;
+}
